@@ -1,0 +1,110 @@
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(36, 82, 44);
+}
+
+
+.envoltura {
+    width: 45%;
+    height: 200px;
+    border: none;
+    width: 50%; height: 45; right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+    
+    
+}
+.articulo{
+   
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+@media screen and (max-width: 599px){
+.articulo{
+    width: 95%;
+    height: 200px;
+    border: 1px solid #000000;
+    margin: 2%;
+}
+@media screen and (min-width: 1000px) {
+    .articulo{
+        width: 23%;
+        height: 200px;
+        border: 1px solid #000000;
+        margin: 0.5%;
+        
+    }
+    
+}
+}
+label{
+    text-align: center;
+    background-color: rgb(99, 160, 109);
+    color: beige;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: none;
+
+}
+input{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+select{
+    border: 1px solid#000000;
+    text-transform: lowercase;
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(36, 82, 44);
+    background-color: beige;
+}
+textarea{
+    color:rgb(36, 82, 44);
+    border: 1px solid #000000;
+    background-color:  beige;
+}
+body{
+    background-color: rgb(219, 219, 141);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    
+    background-color: rgb(23, 51, 28);
+
+}
+li{
+    float: left;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+
+}
+li a:hover{
+ background-color: rgb(35, 122, 122);
+
+}
+form{
+   display: block;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+}
+
